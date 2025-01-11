@@ -27,7 +27,7 @@ const TaskGrocery = () => {
           return (
             <div
               key={v.title}
-              className={`${bgColor} p-5 border m-5 w-80 shadow-lg hover:scale-105 hover:shadow-2xl hover:cursor-pointer`}
+              className={`${bgColor} p-5 border m-5 w-80 shadow-lg hover:scale-105 hover:shadow-2xl hover:cursor-pointer rounded-lg`}
             >
               <h1 className="text-3xl">{v.title}</h1>
               <h1>{v.description}</h1>
